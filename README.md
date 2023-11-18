@@ -9,7 +9,7 @@ Resolutions are designed to be 16/9 and scaled accordingly.
 ____
 
 <p align="center">
-  <img width="512" height="473" src="logo.png">
+  <img width="512" height="473" src="https://github.com/michegames/phaser_configurator/blob/master/logo.png">
 </p>
 
 ____
@@ -30,6 +30,8 @@ this library I use for my personal projects, it is published in the hope that it
 
 ## Usage
 
+    import { configurator, Orientations, Types} from 'game_configurator';
+    ...
     const config = configurator(Types.MODERN, Orientations.HORIZONTAL);
     config.scene = [... your scene array here ...];
     const ref = new Game(config);
