@@ -8,7 +8,9 @@ Resolutions are designed to be 16/9 and scaled accordingly.
 
 ____
 
-![Logo](logo.png "Phaser Configurator")
+<p align="center">
+  <img width="512" height="473" src="logo.png">
+</p>
 
 ____
 
