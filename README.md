@@ -9,7 +9,7 @@ Resolutions are designed to be 16/9 and scaled accordingly.
 ____
 
 <p align="center">
-  <img width="512" height="473" src="https://github.com/michegames/phaser_configurator/blob/master/logo.png?raw=true">
+  <img width="512" height="473" src="https://github.com/michegames/phaser_configurator/blob/main/logo.png?raw=true">
 </p>
 
 ____
