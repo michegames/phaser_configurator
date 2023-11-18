@@ -1,6 +1,6 @@
 {
   "name": "game_configurator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a configurator of options for phaser games",
   "main": "index.js",
   "scripts": {
