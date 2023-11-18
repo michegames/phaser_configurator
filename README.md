@@ -27,3 +27,9 @@ this library I use for my personal projects, it is published in the hope that it
 ---
 
 ## Usage
+
+    const config = configurator(Types.MODERN, Orientations.HORIZONTAL);
+    config.scene = [... your scene array here ...];
+    const ref = new Game(config);
+
+---
