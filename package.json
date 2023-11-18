@@ -1,0 +1,19 @@
+{
+  "name": "game_configurator",
+  "version": "1.0.0",
+  "description": "a configurator of options for phaser games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "phaserjs",
+    "es6",
+    "resolution"
+  ],
+  "author": "Michelangelo Giacomelli",
+  "license": "ISC",
+  "dependencies": {
+    "phaser": "^3.70.0"
+  }
+}
