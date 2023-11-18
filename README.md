@@ -16,7 +16,7 @@ ____
 
 Currently the resolutions are:
 
-* RETRO: 640x360 (abilita automaticamente anche il pixel art)
+* RETRO: 640x360 (It also automatically enables pixel art)
 * CLASSIC: 836x470
 * MODERN: 1031x580
 
