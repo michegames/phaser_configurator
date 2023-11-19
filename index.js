@@ -2,13 +2,13 @@ import { AUTO, Scale } from 'phaser';
 
 const enumValue = (name) => Object.freeze({toString: () => name});
 
-const Orientations = Object.freeze(
+export const Orientations = Object.freeze(
 {
     HORIZONTAL: enumValue('Orientations.HORIZONTAL'),
     VERTICAL: enumValue('Orientations.VERTICAL')
 });
 
-const Types = Object.freeze(
+export const Types = Object.freeze(
 {
     RETRO: enumValue('Types.RETRO'),
     CLASSIC: enumValue('Types.CLASSIC'),
@@ -45,7 +45,7 @@ const _base_config =
     backgroundColor: 0x6666ff
 };
 
-const configurator = (type, orientation) =>
+export const configurator = (type, orientation) =>
 {
     const _tmp = Object.assign({}, _base_config);
     _tmp.width = _data[type][orientation].w;
@@ -72,14 +72,3 @@ const configurator = (type, orientation) =>
     }
     return _tmp;
 };
-
-module.exports = 
-{
-    configurator,
-    Orientations,
-    Types
-};
-
-// usage:
-// const config3 = configurator(Types.MODERN, Orientations.HORIZONTAL);
-// config3.scene = [... your scene array here ...];
